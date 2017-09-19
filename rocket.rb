@@ -10,7 +10,7 @@ class Rocket
   end
 
   def name=(new_name)
-    @name = new_name
+    @name = new_name.to_s
   end
 
   def colour
@@ -18,7 +18,7 @@ class Rocket
   end
 
   def colour=(new_colour)
-    @colour = new_colour
+    @colour = new_colour.to_s
   end
 
   def flying?
